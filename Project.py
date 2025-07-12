@@ -14,7 +14,7 @@ d=input("Enter the Source: ")
 for x in source:
     if d!='source':
         print("Source not Available",source)
-    elif
+    elif d in source:
         print('Please the above source')
     else:
         print('Please Enter the Destination')
@@ -29,6 +29,8 @@ for x in range(c):
     name=input("Enter the Name: ")
     age=int(input("Please Enter the age: "))
     gender=input("Please Enter the gender: ")
+
 print("Click on payment for ticket booking")
 for y in range(c):
-    d=("Per ticket Price is 650")
+    d=(c*650)
+    print("Total amount to be paid is: ",d)
